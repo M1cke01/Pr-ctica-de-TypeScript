@@ -1,4 +1,4 @@
-function calcularEdad(fechaDeNacimiento: string): number {
+const calcularEdad = (fechaDeNacimiento: string): number => {
 
     const formatoDeFecha = /^\d{4}-\d{2}-\d{2}$/;
     if (!formatoDeFecha.test(fechaDeNacimiento)) {
